@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cek koneksi - StoreBlox</title>
+<meta name="robots" content="noindex">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; connect-src 'self' https://caewaswnnvfofofyjqob.supabase.co; style-src 'self' 'unsafe-inline'; script-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" href="icon-192.png" type="image/png" sizes="192x192">
+</head>
+<body>
+<div class="doc">
+<h1>Cek koneksi ke Supabase</h1>
+<p class="muted">Halaman ini hanya membaca dan tidak mengubah data apa pun. Isi akun ujimu (opsional) untuk menguji pembacaan data. Email dan password hanya dikirim ke Supabase.</p>
+<label class="field"><input id="em" type="email" placeholder="Email akun uji (opsional)" autocomplete="email"></label>
+<label class="field"><input id="pw" type="password" placeholder="Password (opsional)" autocomplete="current-password"></label>
+<button id="go" class="btn btn-pri btn-block" type="button">Mulai uji</button>
+<h2 id="sum" style="font-size:17px;margin:16px 0 4px"></h2>
+<div id="out"></div>
+<p><a href="index.html">Halaman utama</a> · <a href="app.html">Buka StoreBlox Web</a></p>
+</div>
+<script src="config.js"></script>
+<script src="cek.js"></script>
+</body>
+</html>
