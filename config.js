@@ -28,8 +28,8 @@ window.APP_CONFIG = {
     onlyGuest: true,    // true = iklan hanya untuk tamu (yang sudah login tidak diganggu)
     bannerHeight: 250,  // tinggi banner 300x250 (Jelajahi), mode iframe
     nativeHeight: 260,  // tinggi native banner (Beranda), mode iframe
-    sandboxSameOrigin: false, // false = iklan terkurung penuh (aman) | true = alamat webmu terlihat jaringan iklan (lihat tutorial)
-    interstitial: false, // mode iframe: true = tampilkan juga di jendela layar penuh dengan hitung mundur
+    sandboxSameOrigin: true, // false = iklan terkurung penuh (aman) | true = alamat webmu terlihat jaringan iklan (lihat tutorial)
+    interstitial: true, // mode iframe: true = tampilkan juga di jendela layar penuh dengan hitung mundur
     countdown: 3,       // detik hitung mundur sebelum iklan layar penuh (2-5, mode demo)
     capMinutes: 8,      // jarak minimal antar iklan layar penuh (menit)
     reportEmail: ""     // kosong = pakai CONTACT_EMAIL
