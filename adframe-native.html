@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="referrer" content="origin">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- Halaman ini hanya dimuat di dalam bingkai terkurung (sandbox) oleh ads.js.
+     Aturan keamanannya sengaja longgar untuk skrip iklan, tapi bingkainya terkurung:
+     tidak bisa membaca data login dan tidak bisa memindahkan halaman StoreBlox. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' https:; style-src 'unsafe-inline' https:; img-src https: data:; frame-src https:; connect-src https:; font-src https: data:; media-src https:">
+<title>Iklan</title>
+<style>html,body{margin:0;padding:0;background:transparent;overflow:hidden;text-align:center}</style>
+</head>
+<body>
+<!-- Pemantau milik StoreBlox (bukan kode Adsterra): memberi kabar ke halaman utama apakah skrip iklan berhasil dimuat. -->
+<script>
+(function () {
+  function say(t) { try { parent.postMessage({ sbxad: t }, '*'); } catch (e) { /* abaikan */ } }
+  window.addEventListener('error', function (e) {
+    var t = e && e.target;
+    if (t && t.tagName === 'SCRIPT' && /^https?:/.test(t.src || '')) { say('adfail'); }
+  }, true);
+  window.addEventListener('load', function (e) {
+    var t = e && e.target;
+    if (t && t.tagName === 'SCRIPT' && /^https?:/.test(t.src || '')) { say('adok'); }
+  }, true);
+})();
+</script>
+<!-- ===== TEMPEL KODE BANNER DARI JARINGAN IKLAN DI BAWAH GARIS INI ===== -->
+
+
+
+
+<script async="async" data-cfasync="false" src="https://bauval.org/21/0a642600f9fe4d147bd82e206a3a6a6f"></script>
+<div id="container-0a642600f9fe4d147bd82e206a3a6a6f"></div>
+
+<!-- ===== SAMPAI DI SINI. Jangan ubah bagian lain di file ini. ===== -->
+</body>
+</html>
