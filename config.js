@@ -12,7 +12,7 @@ window.APP_CONFIG = {
 
   // (ISI) Link unduh APK. Contoh dari GitHub Releases:
   // "https://github.com/NAMAKAMU/storblox/releases/download/v1.0/StoreBlox.apk"
-  APK_URL: "https://github.com/storblox404/storblox.github.io/releases/download/V1.0/StoreBlox-1.2.apk",
+  APK_URL: "https://github.com/storblox404/storblox404.github.io/releases/download/1.3/StoreBlox-1.3.apk",
   APK_VERSION: "1.3",          // versi aplikasi
   APK_SIZE: "273 KB",          // ukuran file APK
   APK_SHA256: "sha256:68c361dd4bf3920580185caa0db7013008e2df1736ed2c1f2608c6ad60f4c918", // sidik jari file APK
