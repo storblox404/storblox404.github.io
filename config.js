@@ -32,8 +32,8 @@ window.APP_CONFIG = {
     adblockWall: true,  // true = tamu yang memakai pemblokir iklan diminta mematikannya (Inggris + Indonesia)
     sandboxSameOrigin: true, // false = iklan terkurung penuh (aman) | true = alamat webmu terlihat jaringan iklan (lihat tutorial)
     interstitial: true, // mode iframe: true = tampilkan juga di jendela layar penuh dengan hitung mundur
-    countdown: 3,       // detik hitung mundur sebelum iklan layar penuh (2-5, mode demo)
-    capMinutes: 8,      // jarak minimal antar iklan layar penuh (menit)
+    countdown: 1,       // detik hitung mundur sebelum iklan layar penuh (2-5, mode demo)
+    capMinutes: 0,      // jarak minimal antar iklan layar penuh (menit)
     reportEmail: ""     // kosong = pakai CONTACT_EMAIL
   }
 };
