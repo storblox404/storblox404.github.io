@@ -15,7 +15,7 @@ window.APP_CONFIG = {
   APK_URL: "https://github.com/storblox404/storblox.github.io/releases/download/V1.0/StoreBlox-1.2.apk",
   APK_VERSION: "1.2",          // versi aplikasi
   APK_SIZE: "245 KB",          // ukuran file APK
-  APK_SHA256: "0d586e5081a3350854cb62bf27cf792ab284dabb413156a4c57c7eb2dfd00d63", // sidik jari file APK
+  APK_SHA256: "sha256:a767a2a6394243eafabd931a31541306f86cc3ff35f6adfcf40693f6ec14a8b7", // sidik jari file APK
 
   CONTACT_EMAIL: "haloword1345@gmail.com", // email kontak (Privasi & Ketentuan)
   SITE_URL: "https://storblox404.github.io",
